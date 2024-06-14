@@ -29,7 +29,12 @@
 
                 Console.WriteLine($"name = {personName}, number: {i}, average = {average}");
                 Console.WriteLine();
-                Console.WriteLine($"Broi na slabite ocenki {persons.Count(g => gradeMaths < 3 || gradeBel < 3)}");
+                
+                if (Math.Round(gradeMaths) < 3 || Math.Round(gradeBel) < 3)
+                {
+                    Console.WriteLine($"Broi na slabite ocenki {persons.Count(g => gradeMaths < 3 || gradeBel < 3)}");
+                }
+               
                
             }
            
