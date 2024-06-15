@@ -29,7 +29,7 @@
                 
                 if (Math.Round(ocenkaBel) == Math.Round(ocenkaMat))
                 {
-                    Console.WriteLine($"Nomer: {i}: {ocenkaBel}, {ocenkaMat} = {average}");
+                    Console.WriteLine($"Nomer: {i}: {ocenkaBel}, {ocenkaMat}");
                 }
                 else
                 {

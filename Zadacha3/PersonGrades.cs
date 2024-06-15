@@ -11,7 +11,7 @@ namespace Zadacha3
         private string name = "";
         private double gradeBel = 0;
         private double gradeMat = 0;
-
+        List<PersonGrades> persons = new List<PersonGrades>();
         public string Name { get; set; }
         public double GradeBel { get; set; }
         public double GradeMat { get; set; }
@@ -20,7 +20,9 @@ namespace Zadacha3
         {
             this.Name = name;
             this.GradeBel = bel;
-            this.gradeMat = mat;
+            this.GradeMat = mat;
         }
+
+        
     }
 }
