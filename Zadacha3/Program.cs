@@ -45,9 +45,24 @@
 
                 Console.WriteLine(slabiOcenki);
 
+                for (int j = 0; j < persons.Count; j++)
+                {
+                    double ocenkaBel = persons[i].GradeBel;
+                    double ocenkaMat = persons[i].GradeMat;
+                    
 
-
+                    if (Math.Round(ocenkaBel) < 3 || Math.Round(ocenkaMat) < 3)
+                    {
+                        Console.WriteLine($"Slabi ocenki: {persons.Count()}");
+                    }
+                    
+                }
+            
             }
+
+
+
+            
 
 
 
