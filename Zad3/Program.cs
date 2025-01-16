@@ -5,13 +5,11 @@
         static void Main(string[] args)
         {
             LinkedList<int> list = new LinkedList<int>();
-            list.AddFirst(1);
+            list.AddFirst(8);
+            list.AddLast(16);
             list.AddLast(2);
-            list.AddLast(3);
-            list.AddLast(4);
-            list.AddLast(5);
-            list.AddLast(6);
-            list.AddLast(7);
+            list.AddLast(17);
+            
             foreach (int item in list)
             {
                 Console.WriteLine(item);
